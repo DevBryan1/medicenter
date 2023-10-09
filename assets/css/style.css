@@ -3,6 +3,9 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    padding-bottom: 300px;
+}
 header{
     display: flex;
     justify-content: center;
@@ -123,9 +126,59 @@ nav a:hover {
 .banner-hours h2{
     font-size: 13px;
 }
+#geral {
+    display: flex;
+    justify-content: center;
+}
+#geral section {
+    flex: 2;
+}
+#geral aside {
+    flex: 1;
+}
+.widget-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget-title-text {
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+.widget-title-bar {
+    width: 50px;
+    height: 3px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+.widget-body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box {
+    background-color: #01a6dd;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 25px;
+}
+.widget-appointement-text {
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.contact {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.contact a {
+    text-decoration: underline;
+    color: #2b4c99;
 
-
-
+}
 
 
 
