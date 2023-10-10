@@ -227,11 +227,31 @@ article .news-resume {
     font-size: 14px;
     margin-bottom: 30px;
 }
-
-
-
-
-
+footer {
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+}
+.footer-menu {
+    display: flex;
+    flex: 1;
+}
+.fm1,
+.fm2,
+.fm3 {
+    flex: 1;
+    color: #ffffff;
+    padding: 20px;
+}
+.fm1 {
+    background-color: #39aae1;
+}
+.fm2 {
+    background-color: #0079c7;
+}
+.fm3 {
+    background-color: #2b4c99;
+}
 
 
 
