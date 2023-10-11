@@ -367,6 +367,11 @@ footer .widget-title-text {
     #geral aside {
         padding: 10px;
     }
+    aside .widget-body {
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
     .widget-body { 
         gap: 5px;
         padding: 10px;
@@ -412,5 +417,39 @@ footer .widget-title-text {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+    }
+}
+@media (max-width:430px) {
+    footer .widget-text {
+        margin-left: 0px;
+    }
+    .banner-headline h1 {
+        font-size: 35px;
+    }
+    .banner-headline h2 {
+        font-size: 12px;
+    }
+}
+@media (max-width:350px) {
+    #geral section {
+        padding: 20px;
+        margin-left: 30px;
+    }
+    .widget-title {
+        margin-left: 10px;
+    }
+    aside .box {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 0px;
+    }
+    #geral aside .widget-title {
+        margin-left: 50px;
+    }
+    aside .widget-body {
+        width: 50%;
+        margin-left: 50px;
+        flex-direction:row;
+
     }
 }
