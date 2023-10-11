@@ -3,9 +3,6 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    padding-bottom: 300px;
-}
 header{
     display: flex;
     justify-content: center;
@@ -234,7 +231,6 @@ footer {
 }
 .footer-menu {
     display: flex;
-    flex: 1;
 }
 .fm1,
 .fm2,
@@ -252,12 +248,137 @@ footer {
 .fm3 {
     background-color: #2b4c99;
 }
+.footer-area {
+    display: flex;
+}
+.footer-area-item {
+    flex: 1;
+    color: #FFFFFF;
+}
+.flexColumn { 
+    flex-direction: column;
+}
+footer .widget-title-text { 
+    color: #FFFFFF;
+}
+.footer-copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.footer-copy a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 4px;
+}
+.fm-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.fm-desc {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.widget-text {
+    font-size: 12px;
+    color: #707070;     
+}
+.footer-address-container {
+    display: flex;
+    flex: 2;
+}
+.footer-address {
+    flex: 1;
+    color: #707070;
+    font-size: 12px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+.footer-number {
+    display: flex; 
+    flex: 1;
+    font-size: 12px;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.number-format { 
+    color: #707070;
+}
+.widget-text1 {
+    display: flex;
+    font-size: 12px;
+    gap: 5px;
+    color: #b3b3b3;
+    font-weight: 600;
+}
+.widget-body span {
+    color: #0079c7;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-bottom: 30px;
+}
+.tweets {
+    color: #707070;
+}
 
+@media (max-width: 600px) {
 
-
-
-
-
-
-
-
+    .banner-headline {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .banner-headline h1 {
+        font-size: 55px;
+    }
+    .banner-headline h2 {
+        font-size: 17px;
+    }
+    .banner-options {
+        height: auto;
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: column;
+    }
+    #geral section {
+        margin-top: 50px;
+        padding: 20px;
+    }
+    #geral aside {
+        padding: 10px;
+    }
+    .widget-body { 
+        gap: 5px;
+        padding: 10px;
+        justify-content: space-around;
+    }
+    .footer-area-item span {
+        width: 100%;
+        text-align: start;
+    }
+    .widget-text {
+        margin-left: -30px;
+    }
+    .footer-area {
+        padding: 10px;
+    }
+    .footer-menu {
+        flex-direction: column;
+    }
+    .footer-area {
+        flex-direction: column;
+    }
+    .footer-copy {
+        padding: 10px;
+    }
+    header .container {
+        flex-direction: row;
+    }
+}
